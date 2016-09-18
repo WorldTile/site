@@ -34,22 +34,6 @@
     height: 800px;
 }
 
-.mt94 {
-    margin-top: 94px;
-}
-
-
-/*Padding*/
-.p5 {
-    padding: 5px;
-}
-
-.plr20 {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
 /*Buttons*/
 .buttonP {
     position: absolute;
@@ -59,12 +43,25 @@
 
 
 /*Media Queries*/
-@media screen and (max-width: 768px){
-  
-  *[class*='plr20']{
-  	padding: 0px;
-  }
-  
+
+
+@media(max-width:767px) {
+    *[class*='tile-first'] {
+        margin-top: 82px;
+    }
+}
+
+
+@media(min-width:768px) {
+    *[class*='tile-first'] {
+        margin-top: 82px;
+    }
+}
+
+@media(min-width:992px) {
+    *[class*='tile-first'] {
+        margin-top: 82px;
+    }       
 }
 
 
