@@ -1,0 +1,70 @@
+﻿/*Tile Styles*/
+.tile {
+    height: 250px;
+    background-color: grey;
+    border: solid 1px;
+}
+
+.tile:hover
+{
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+        z-index:5;
+}
+
+/*Height*/
+.mHeight100 {
+    min-height: 100px;
+}
+
+.mHeight200 {
+    max-height: 200px;
+}
+
+.Height400 {
+    height: 400px;
+}
+
+.Height600 {
+    height: 600px;
+}
+
+.Height800 {
+    height: 800px;
+}
+
+.mt94 {
+    margin-top: 94px;
+}
+
+
+/*Padding*/
+.p5 {
+    padding: 5px;
+}
+
+.plr20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*Buttons*/
+.buttonP {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+  
+  *[class*='plr20']{
+  	padding: 0px;
+  }
+  
+}
+
+
